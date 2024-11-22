@@ -2,7 +2,12 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/shahnawazkcl/shiny-hosted-ghpages)
 [![MIT License](https://img.shields.io/badge/License-MIT%20License-orange)](https://opensource.org/license/mit)
 [![PRs welcome](https://img.shields.io/badge/Prs-welcome-brightgreen)](https://github.com/shahnawazkcl/shiny-hosted-ghpages/pulls)
-[![Forks](https://img.shields.io/github/forks/shahnawazkcl/shiny-hosted-ghpages)](https://github.com/shahnawazkcl/shiny-hosted-ghpages/network)
+[![Forks](https://img.shields.io/github/forks/shahnawazkcl/shiny-hosted-ghpages)](https://github.com/shahnawazkcl/shiny-hosted-ghpages/forks)
+![Commit](https://img.shields.io/github/commit-activity/t/shahnawazkcl/shiny-hosted-ghpages)
+
+<!--[![GitHub commits](https://img.shields.io/badge/commits-blue)](https://github.com/shahnawazkcl/shiny-hosted-ghpages/graphs/commit-activity)
+](https://github.com/shahnawazkcl/shiny-hosted-ghpages/graphs/commit-activity)-->
+
 
 # DataPulse Dashboard
 
