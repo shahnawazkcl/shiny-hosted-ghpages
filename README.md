@@ -63,9 +63,3 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 - **Shiny** by RStudio - for creating interactive web applications.
 - **ShinyLive** - for making R Shiny apps easy to host on static sites.
 - **GitHub Pages** - for providing free hosting.
-
-
-- Add a badge to the README indicating the status of the GitHub Pages deployment:
-  ```markdown
-  
-  ```
