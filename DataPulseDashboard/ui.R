@@ -31,6 +31,9 @@ ui <- page_sidebar(
     hr(), # Add a horizontal rule
     checkboxInput("by_species", "Show species", TRUE),
     checkboxInput("show_margins", "Show marginal plots", TRUE),
+    checkboxInput("by_gender", "Show genders", FALSE),
+    checkboxInput("by_island", "Show islands", FALSE),
+    checkboxInput("by_year", "Add facet by year", FALSE),
     checkboxInput("smooth", "Add smoother"),
   ),
   plotOutput("scatter")

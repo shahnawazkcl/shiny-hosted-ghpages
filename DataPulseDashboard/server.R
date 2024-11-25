@@ -24,7 +24,13 @@ server <- function(input, output, session) {
       theme(legend.position = "bottom"),
       if (input$by_species) aes(color = Species),
       geom_point(),
+      if (input$by_gender) aes(color = Sex),
+      geom_point(),
+      if (input$by_island) aes(color = Island),
+      geom_point(),
       if (input$smooth) geom_smooth()
+    )+ list(if (input$by_year) facet_grid(cols = vars(Year))
+            
     )
     
     if (input$show_margins) {
