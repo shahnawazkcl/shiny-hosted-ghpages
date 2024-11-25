@@ -52,7 +52,7 @@ This application demonstrates:
 To deploy the application to GitHub Pages:
 1. Export the app using **ShinyLive**:
    ```sh
-   shinylive export app.R --output-dir shiny_app_shinylive
+   shinylive::export(appdir = "DataPulseDashboard", destdir = "docs")
    ```
 2. Push the exported content to the `gh-pages` branch of your repository.
 
