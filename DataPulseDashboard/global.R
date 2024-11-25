@@ -10,3 +10,8 @@ penguins_csv <- "https://raw.githubusercontent.com/jcheng5/simplepenguins.R/main
 df <- readr::read_csv(penguins_csv)
 # Find subset of columns that are suitable for scatter plot
 df_num <- df |> select(where(is.numeric), -Year)
+
+if(!file.exists('data/penguins_data.Rdata')) {
+  save(df, df_num, file = 'data/penguins_data.Rdata')
+}
+
